@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="stylesheet" href="css/style.bundle.css" />
+    <title>Второй заголовок | Проект</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="/" class="header-logo"
+        ><img src="img/logo-pre.svg" alt="Logo" />
+        <span
+          ><span class="header-logo-arab">Arabic Cash</span>
+          <span class="header-logo-deviz">#1 In the Arab World</span></span
+        ></a
+      >
+      <nav class="header-menu">
+        <ul class="header-menu-list">
+          <li class="header-menu-item _active"><a href="/index.html">Home</a></li>
+          <li class="header-menu-item"><a href="/second.html">Exchange</a></li>
+          <li class="header-menu-item"><a href="/third.html">Staking</a></li>
+          <li class="header-menu-item"><a href="#">ABIC Contract</a></li>
+          <li class="header-menu-item"><a target="_blank" href="">News</a></li>
+          <li class="header-menu-item">
+            <a href="#">Farming<sup>soon</sup></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-social">
+        <a href="#"><img src="img/twitter.svg" alt="twitter" /> </a><a href="#"><img src="img/sun.svg" alt="sun" /> </a
+        ><a href="#"><img src="img/moon.svg" alt="moon" /></a>
+      </div>
+      <div class="header-button">
+        <button class="header-button-btn btn" data-toggle="modal" data-target="#connectWallet">
+          Connect to wallet
+        </button>
+        <div class="dropdown show">
+          <div class="header-button-edit">
+            <a
+              class="header-button-edit-link"
+              href="#"
+              role="button"
+              id="optionLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              ><img src="img/edit.svg" alt="Edit"
+            /></a>
+            <div class="header-option dropdown-menu dropdown-menu-right" aria-labelledby="optionLink">
+              <div class="header-option-ttl">Transaction Settings</div>
+              <div class="header-option-txt">Slippage toleranc</div>
+              <div class="header-option-btns">
+                <button class="btn header-option-btn">0.1%</button> <button class="btn header-option-btn">0.5%</button>
+                <button class="btn header-option-btn">1%</button> <input class="header-option-input" />
+              </div>
+              <div class="header-option-txt">Transaction deadline</div>
+              <div class="header-option-info">
+                <input class="header-option-input" />
+                <div class="header-option-minutes">minutes</div>
+              </div>
+              <div class="header-option-int">Interface Settings</div>
+              <div class="header-option-row">
+                <div class="header-option-txt">Toggle Expert Mode</div>
+                <button class="header-option-toogle">
+                  <span class="header-option-toogle-on">On</span> <span class="header-option-toogle-off">Off</span>
+                </button>
+              </div>
+              <div class="header-option-row">
+                <div class="header-option-txt">Toggle Dark Mode</div>
+                <button id="darkMode" class="header-option-toogle">
+                  <span class="header-option-toogle-on">On</span> <span class="header-option-toogle-off">Off</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="connectWallet" role="dialog" aria-labelledby="connectWalletLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="sc-bwCtUz bTNVAr"
+              >
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </button>
+            <div class="modal-header"><h5 class="modal-title" id="connectWalletLabel">Connect to a wallet</h5></div>
+            <div class="modal-body">
+              <div class="modal-body-inner">
+                <button class="btn modal-wallet">
+                  <div class="modal-wallet-txt">Install Metamask</div>
+                  <img src="img/metamask.png" alt="Icon" />
+                </button>
+                <button class="btn modal-wallet">
+                  <div class="modal-wallet-txt">WalletConnect</div>
+                  <img src="img/wallet.svg" alt="Icon" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="main-logo">
+        <img src="img/logo-pre.svg" alt="Logo" /> <span class="main-logo-arab">Arabic Cash</span>
+        <span class="main-logo-deviz">- #1 In the Arab World -</span>
+      </div>
+      <div class="lk"><button class="btn" style="margin: 0 auto">Connect to wallet</button></div>
+      <div class="lk-row">
+        <div class="lk-window">
+          <img src="img/logo-pre.svg" alt="Logo" />
+          <div class="lk-window-txt">ABIC Earned</div>
+          <div class="lk-window-num">0.000</div>
+          <button class="btn lk-window-btn">Connect to wallet</button>
+        </div>
+        <div class="lk-window">
+          <img src="img/busd.svg" alt="busd" />
+          <div class="lk-window-txt">BUSD-BNB Tokens Staked</div>
+          <div class="lk-window-num">0.000</div>
+          <button class="btn lk-window-btn">BUSD-BNB Tokens Staked</button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <nav class="footer-menu">
+        <ul class="footer-menu-list">
+          <li class="footer-menu-item"><a href="">Boo Contract</a></li>
+          <li class="footer-menu-item"><a target="_blank" rel="nofollow" href="https://t.me/boo_swap">Telegram</a></li>
+          <li class="footer-menu-item">
+            <a target="_blank" rel="nofollow" href="https://github.com/booswap">GitHub</a>
+          </li>
+          <li class="footer-menu-item">
+            <a target="_blank" rel="nofollow" href="https://booswap.medium.com">Medium</a>
+          </li>
+          <li class="footer-menu-item">
+            <a target="_blank" rel="nofollow" href="https://twitter.com/SwapBoo">Twitter</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
